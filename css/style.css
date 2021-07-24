@@ -1,0 +1,108 @@
+ *{margin: 0%;padding: 0%;box-sizing: border-box;}
+
+
+/* newsletter */
+.newsletter{
+    background-color: #16161aec;
+    justify-content: center;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    height: 15.62rem;
+    
+ 
+}
+
+.newsletter div{
+    margin:1.6rem;
+
+}
+
+form{
+    margin-top: 30px;
+}
+
+.newsletter div input[type="email"]{
+    height: 2.5rem;/* altura do input do email */
+    width: 30rem; 
+    text-align: center;
+}
+
+.newsletter h2{
+    font-size: 1.5rem;
+}
+
+.newsletter button{
+    width: 11.75rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #26b67d;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    
+}
+
+p{
+  margin-bottom: 30rem;
+ 
+}
+
+/* PARALLAX */
+
+.parallax{
+    background-image: url("../img/sobre-nós.jpg");
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.parallax img{
+    width: 45%;
+}
+/* estilização do parágrafo */
+main > p {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: -9rem;
+}
+
+h1 {
+    margin-top: 5rem;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.since{
+    margin-left: 15rem;
+    width: 50rem;
+    margin-top: -6rem;
+}
+
+.container div:nth-child(1){
+    box-shadow: rgba(17, 18, 19, 0.7) 24px 30px 30px;
+    border-radius: 10px;
+    
+    
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    
+    
+    
+    text-align: justify;
+}
+ div > p {
+     margin-left: 1.5rem;
+    /*  margin-top: 2rem; */
+ }
+ 
